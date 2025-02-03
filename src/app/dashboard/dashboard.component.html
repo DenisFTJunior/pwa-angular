@@ -1,0 +1,76 @@
+<div class="container">
+  <div class="info">
+    <div class="info-user">
+      <div class="info-user-avatar">
+        <img [src]="user.picture?.medium" class="avatar" />
+        <div>
+          <span class="title">{{ user.name?.title }}</span>
+          <h2>{{ user.name?.first }} {{ user.name?.last }}</h2>
+        </div>
+      </div>
+      <div class="general-info-container">
+        <div class="label-value">
+          <span class="label">Email:</span>
+          <span class="value">{{ user.email }}</span>
+        </div>
+        <div class="label-value">
+          <span class="label">Gender:</span>
+          <span class="value">{{ user.gender }}</span>
+        </div>
+        <div class="label-value">
+          <span class="label">Phone:</span>
+          <span class="value">{{ user.phone }}</span>
+        </div>
+        <div class="label-value">
+          <span class="label">Cell:</span>
+          <span class="value">{{ user.cell }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="graph-container">
+    <div class="card">
+      <app-graph-bar />
+    </div>
+    <div class="card">
+      <app-graph-bar />
+    </div>
+  </div>
+  <div class="info">
+    <div class="info-user">
+      <div class="info-user-avatar">
+        <img [src]="user.picture?.medium" class="avatar" />
+        <div>
+          <span class="title">{{ user.name?.title }}</span>
+          <h2>{{ user.name?.first }} {{ user.name?.last }}</h2>
+        </div>
+      </div>
+      <div class="general-info-container">
+        <div class="label-value">
+          <span class="label">Email:</span>
+          <span class="value">{{ user.email }}</span>
+        </div>
+        <div class="label-value">
+          <span class="label">Gender:</span>
+          <span class="value">{{ user.gender }}</span>
+        </div>
+        <div class="label-value">
+          <span class="label">Phone:</span>
+          <span class="value">{{ user.phone }}</span>
+        </div>
+        <div class="label-value">
+          <span class="label">Cell:</span>
+          <span class="value">{{ user.cell }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="graph-container">
+    <div class="card">
+      <app-graph-bar />
+    </div>
+    <div class="card">
+      <app-graph-bar />
+    </div>
+  </div>
+</div>
